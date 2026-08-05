@@ -80,6 +80,14 @@ alert("Invalid Date of Birth");
 return;
 }
 
+// Age Validation
+let age = today.getFullYear() - birthDate.getFullYear();
+
+if(age < 16){
+alert("Candidate must be at least 16 years old");
+return;
+}
+
 // Phone Number
 if(phone === ""){
 alert("Phone Number is required");
