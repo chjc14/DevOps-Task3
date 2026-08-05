@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam User Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Exam User Registration Form</h1>
+
+    <form id="registrationForm">
+
+        <label>First Name</label>
+        <input type="text" id="fname" placeholder="Enter First Name">
+
+        <label>Last Name</label>
+        <input type="text" id="lname" placeholder="Enter Last Name">
+
+        <label>Father's Name</label>
+        <input type="text" id="father" placeholder="Enter Father's Name">
+
+        <label>Mother's Name</label>
+        <input type="text" id="mother" placeholder="Enter Mother's Name">
+
+        <label>Date of Birth</label>
+        <input type="date" id="dob">
+
+        <label>Phone Number</label>
+        <input type="text" id="phone" placeholder="Enter 10-digit Mobile Number">
+
+        <label>Email Address</label>
+        <input type="email" id="email" placeholder="Enter Email Address">
+
+        <h2>Education Details</h2>
+
+        <table>
+
+            <thead>
+                <tr>
+                    <th>Qualification</th>
+                    <th>Board / University</th>
+                    <th>Year</th>
+                    <th>Percentage</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td><input type="text" id="qual10" placeholder="10th"></td>
+                    <td><input type="text" id="board10"></td>
+                    <td><input type="number" id="year10"></td>
+                    <td><input type="number" id="per10"></td>
+                </tr>
+
+                <tr>
+                    <td><input type="text" id="qual12" placeholder="12th"></td>
+                    <td><input type="text" id="board12"></td>
+                    <td><input type="number" id="year12"></td>
+                    <td><input type="number" id="per12"></td>
+                </tr>
+
+                <tr>
+                    <td><input type="text" id="qualug" placeholder="Graduation"></td>
+                    <td><input type="text" id="boardug"></td>
+                    <td><input type="number" id="yearug"></td>
+                    <td><input type="number" id="perug"></td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+        <label>Upload Photo</label>
+        <input type="file" id="photo" accept="image/*">
+
+        <label>Upload Signature</label>
+        <input type="file" id="sign" accept="image/*">
+
+        <div class="buttons">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+
+    </form>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

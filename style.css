@@ -1,0 +1,161 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f4f7fa;
+    padding:30px;
+}
+
+.container{
+    width:80%;
+    max-width:900px;
+    margin:auto;
+    background:#fff;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 0 15px rgba(0,0,0,0.2);
+}
+
+h1{
+    text-align:center;
+    color:#fff;
+    background:#003366;
+    padding:15px;
+    border-radius:8px;
+    margin-bottom:25px;
+}
+
+h2{
+    margin-top:25px;
+    margin-bottom:15px;
+    color:#003366;
+    border-left:5px solid #003366;
+    padding-left:10px;
+}
+
+label{
+    display:block;
+    margin-top:15px;
+    margin-bottom:5px;
+    font-weight:bold;
+    color:#333;
+}
+
+input{
+    width:100%;
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    font-size:15px;
+}
+
+input:focus{
+    outline:none;
+    border-color:#003366;
+    box-shadow:0 0 5px rgba(0,51,102,0.3);
+}
+
+input[type="file"]{
+    background:#f8f9fa;
+    padding:8px;
+    cursor:pointer;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:15px;
+}
+
+table,
+th,
+td{
+    border:1px solid #999;
+}
+
+th{
+    background:#003366;
+    color:white;
+    padding:12px;
+}
+
+td{
+    padding:8px;
+}
+
+td input{
+    width:100%;
+    border:none;
+    outline:none;
+    padding:8px;
+    background:transparent;
+}
+
+td input:focus{
+    border:1px solid #003366;
+    border-radius:3px;
+}
+
+tr:hover{
+    background:#eef5ff;
+}
+
+.buttons{
+    text-align:center;
+    margin-top:30px;
+}
+
+button{
+    padding:12px 30px;
+    margin:10px;
+    border:none;
+    border-radius:5px;
+    font-size:16px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button[type="submit"]{
+    background:#28a745;
+    color:white;
+}
+
+button[type="submit"]:hover{
+    background:#218838;
+}
+
+button[type="reset"]{
+    background:#dc3545;
+    color:white;
+}
+
+button[type="reset"]:hover{
+    background:#b52b38;
+}
+
+@media(max-width:768px){
+
+.container{
+    width:100%;
+    padding:20px;
+}
+
+table{
+    display:block;
+    overflow-x:auto;
+}
+
+h1{
+    font-size:22px;
+}
+
+button{
+    width:100%;
+    margin:10px 0;
+}
+
+}
