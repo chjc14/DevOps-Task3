@@ -6,24 +6,24 @@
 }
 
 body{
-    background:#f4f7fa;
+    background:#eaf4ff;
     padding:30px;
 }
 
 .container{
-    width:80%;
+    width:85%;
     max-width:900px;
     margin:auto;
     background:#fff;
     padding:30px;
-    border-radius:10px;
+    border-radius:15px;
     box-shadow:0 0 15px rgba(0,0,0,0.2);
 }
 
 h1{
     text-align:center;
     color:#fff;
-    background:#003366;
+    background:#004080;
     padding:15px;
     border-radius:8px;
     margin-bottom:25px;
